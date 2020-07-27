@@ -317,16 +317,14 @@ form{
 
 @media(max-width:768px){
     .mail{
-        flex-direction: column;
+    flex-direction: column;
     align-items: center;
 
     }
     .mail ul{
         margin-bottom: 33px;
     }
-    form{
-        margin-top: 30px ;
-    }
+    
 }
 
 .inf{
