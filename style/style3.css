@@ -201,6 +201,11 @@ img {
     color: #3F5D45;
     font-weight: bold;
 }
+.add_to_shoppingcart:hover{
+    cursor: pointer;
+}
+
+
 @media(max-width:768px){
     .main{
         flex-direction: column;
