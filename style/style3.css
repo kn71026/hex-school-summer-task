@@ -4,7 +4,7 @@ img {
 }
 
 *,body{
-    font-family: "Microsoft JhengHei";
+    font-family: '微軟正黑體',sans-serif;
 }
 
 .container{
@@ -267,12 +267,9 @@ img {
 }
 .mail {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 122px;
-    padding-right: 122px;
     font-size: 24px;
     color: #EAF0ED;
 }
@@ -292,13 +289,14 @@ form{
     box-sizing: border-box;
     padding: 18px 20px;
     width: 64px;
-    height: 58px;
+    height: 64px;
     background:#EAF0ED;
 }
 .input_text{
-    padding: 16px 25px 16px ;
+    padding: 16px 25px;
     border: none;
     line-height: 26px;
+    width: 180px;
     background: #EAF0ED;
 }
 
@@ -315,7 +313,11 @@ form{
 @media(max-width:768px){
     .mail{
         flex-direction: column;
-        padding: 40px 0;
+    align-items: center;
+
+    }
+    .mail ul{
+        margin-bottom: 33px;
     }
     form{
         margin-top: 30px ;
@@ -377,6 +379,7 @@ form{
         flex-direction: column;
         align-items: center;
     }
+    
     .right h2{
         display: none;
     }
