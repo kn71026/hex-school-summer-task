@@ -8,7 +8,7 @@ img {
 }
 
 .container{
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
 }
 .header{
@@ -48,19 +48,13 @@ img {
 .banner{
     margin-bottom: 60px;
 }
-@media (max-width:768px){
-    .container{
-        width: 100%;
-    }
-    
+@media (max-width:768px){    
     .header{
-        display: flex;
         justify-content: space-around;
+        align-items: flex-start;
     }
     .hambar{
         display: block;
-        width: 24px;
-        height: 24px;
     }
     .logo{
         display: none;
@@ -73,8 +67,6 @@ img {
     }
     .shopping-cart-mobile{
         display: block;
-        width: 24px;
-        height: 24px;
     }
     .banner{
         margin-top: 30px;
@@ -95,11 +87,9 @@ img {
     padding-top: 16px;
     padding-bottom: 16px;
 }
-.menu li a{
-    font-weight: bold;
-}
 
-.list_item{
+.list_item a{
+    display: block;
     text-align: center;
     width: 300px;
     line-height: 40px;
@@ -124,6 +114,7 @@ img {
 .menu li a{
     text-decoration: none;
     color: #3F5D45;
+    font-weight: bold;
 }
 .productList{
     width: 66%;
@@ -156,10 +147,8 @@ img {
     color: #EAF0ED;
     background: #3F5D45;
     font-size: 16px;
-    height: 106px;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 .heart{
     position: absolute;
@@ -216,6 +205,9 @@ img {
     .menu li{
         width: 100%;
     }
+    .menu a{
+        width: 100%;
+    }
     .productList{
         width: 100%;
         justify-content: center;
@@ -225,7 +217,6 @@ img {
         margin-bottom: 30px;
     }
     .productList ul{
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     
@@ -262,7 +253,6 @@ img {
 
 @media(max-width:768px){
     .pagination{
-        display: flex;
         justify-content: center;
     }
 }
@@ -278,11 +268,12 @@ img {
     font-size: 24px;
     color: #EAF0ED;
 }
-.mail ul{
+.mail_input{
     display: flex;
     align-items: center;
+    margin-bottom: 33px;
 }
-.mail span{
+.mail_input span{
     padding-left: 20px;
     padding-right: 90px;
 }
@@ -297,11 +288,13 @@ form{
     height: 64px;
     background:#EAF0ED;
 }
+
 .input_text{
     padding: 16px 25px;
     border: none;
     line-height: 26px;
     width: 180px;
+    outline: none;
     background: #EAF0ED;
 }
 
@@ -331,7 +324,7 @@ form{
     background: #EAF0ED;
     display: flex;
     justify-content: space-between;
-    padding: 30px 122px;
+    padding: 30px 10%;
 }
 
 .left{
@@ -378,7 +371,6 @@ form{
 
 @media(max-width:768px){
     .inf{
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
