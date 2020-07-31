@@ -256,6 +256,7 @@ img {
         justify-content: center;
     }
 }
+
 .footer{
     width: 100%;
     background: #3F5D45;
@@ -277,16 +278,20 @@ img {
     padding-left: 20px;
     padding-right: 90px;
 }
-form{
+.inputMail{
     display: flex;
     background: #EAF0ED;
+    position: relative;
 }
+
+
 .m_icon{
+    position: absolute;
+    top: 20px;
+    left: 20px;    
     box-sizing: border-box;
-    padding: 18px 20px;
-    width: 64px;
-    height: 64px;
     background:#EAF0ED;
+
 }
 
 .input_text{
