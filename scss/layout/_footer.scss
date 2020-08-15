@@ -53,8 +53,7 @@
     border: none;
     padding: 17px 20px;
 }
-
-@media(max-width:768px){
+@include pad {
     .mail{
     flex-direction: column;
     align-items: center;
@@ -120,7 +119,7 @@
 }
 
 
-@media(max-width:768px){
+@include pad {
     .inf{
         flex-direction: column;
         align-items: center;

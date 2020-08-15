@@ -47,7 +47,7 @@ a {
 }
 
 
-@media (max-width:768px){
+@include pad {
     .navbar{
         justify-content: space-around;
         align-items: flex-start;

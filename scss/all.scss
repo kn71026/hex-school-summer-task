@@ -1,6 +1,6 @@
 @import "./config/variable"; 
-@import "./config/reset"; 
-// @import "bootstrap/bootstrap.scss";
+@import "./config/reset";
+@import "./config/mixin"; 
 @import "./layout/header"; 
 @import "index";
 @import "RWD_index";
