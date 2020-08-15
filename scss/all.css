@@ -456,6 +456,10 @@ a {
   margin-right: 58px;
 }
 
+.check .righticon {
+  margin-right: 0px;
+}
+
 .Lline {
   border-bottom: 1px solid #3F5D45;
   width: 68px;
