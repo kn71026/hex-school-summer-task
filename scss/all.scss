@@ -1,3 +1,8 @@
-@import "bootstrap/bootstrap.scss";
-@import "_index.scss";
-@import "_theme.scss"
+@import "./config/variable"; 
+@import "./config/reset"; 
+// @import "bootstrap/bootstrap.scss";
+@import "./layout/header"; 
+@import "index";
+@import "RWD_index";
+@import "./layout/footer"; 
+@import "theme";
