@@ -54,9 +54,9 @@ table {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
 button {
@@ -67,6 +67,7 @@ button {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 *, body {
@@ -94,6 +95,21 @@ a {
   border: none;
   background: transparent;
   cursor: pointer;
+}
+
+.navbar h1 {
+  width: 30%;
+}
+
+.navbar .Logo {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg);
+  text-indent: 101%;
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .navbar-nav {
@@ -170,12 +186,12 @@ a {
   }
 }
 
-.banner {
+.banner_index {
   margin-bottom: 60px;
 }
 
 @media (max-width: 768px) {
-  .banner {
+  .banner_index {
     margin-top: 30px;
     margin-bottom: 0px;
   }
@@ -409,6 +425,70 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+.banner {
+  background-image: url(https://bit.ly/2P7GhNd);
+  margin-bottom: 60px;
+  background-repeat: no-repeat;
+  width: 940px;
+  height: 460px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.paysuccess {
+  position: absolute;
+  left: 377px;
+  top: 130px;
+}
+
+.check {
+  position: relative;
+  color: #3F5D45;
+  margin-bottom: 32px;
+}
+
+.check .material-icons {
+  display: inline-block;
+  margin-right: 58px;
+}
+
+.Lline {
+  border-bottom: 1px solid #3F5D45;
+  width: 68px;
+  display: inline-block;
+  position: absolute;
+  left: 22px;
+  top: 12px;
+}
+
+.Rline {
+  border-bottom: 1px solid #3F5D45;
+  width: 68px;
+  display: inline-block;
+  position: absolute;
+  left: 108px;
+  top: 12px;
+}
+
+.keep {
+  position: absolute;
+  left: 320px;
+  top: 279px;
+  font-size: 24px;
+  color: #3F5D45;
+  font-weight: bold;
+  background-color: #FFE180;
+  padding: 17px 102px 15px 102px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 }
 

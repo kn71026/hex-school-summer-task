@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    display: block;
   }
 
 *,body{
@@ -10,6 +11,8 @@ a {
     max-width: 940px;
     margin: 0 auto;
 }
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,6 +23,19 @@ a {
         border: none;
         background: transparent;
         cursor: pointer;
+    }
+    h1{
+        width: 30%;
+    }
+    .Logo{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg);
+        text-indent: 101%;
+        height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
     &-nav {
         display: flex;

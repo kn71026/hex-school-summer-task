@@ -1,0 +1,62 @@
+.banner{
+    background-image: url(https://bit.ly/2P7GhNd);
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    width: 940px;
+    height: 460px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.paysuccess{
+    position: absolute;
+    left: 377px;
+    top: 130px;
+}
+
+.check{
+    position: relative;
+    color: #3F5D45;
+    margin-bottom: 32px;
+    .material-icons{
+        display: inline-block;
+        margin-right: 58px;
+    }
+}
+.Lline{
+    border-bottom: 1px solid #3F5D45;
+    width: 68px;
+    display: inline-block;
+    position: absolute;
+    left: 22px;
+    top: 12px;
+}
+.Rline{
+    border-bottom: 1px solid #3F5D45;
+    width: 68px;
+    display: inline-block;
+    position: absolute;
+    left: 108px;
+    top: 12px;
+}
+
+.keep{
+    position: absolute;
+    left: 320px;
+    top: 279px;
+    font-size: 24px;
+    color: #3F5D45;
+    font-weight: bold;
+    background-color: #FFE180;
+    padding: 17px 102px 15px 102px;
+
+}
+
+
+@include pad {
+    .banner{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+}

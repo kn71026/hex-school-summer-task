@@ -1,9 +1,9 @@
-.banner{
+.banner_index{
     margin-bottom: 60px;
 }
 
 @include pad {
-    .banner{
+    .banner_index{
         margin-top: 30px;
         margin-bottom: 0px;
     }
