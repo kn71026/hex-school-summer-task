@@ -1,0 +1,138 @@
+.footer{
+    width: 100%;
+    background: #3F5D45;
+}
+.mail {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #EAF0ED;
+}
+.mail_input{
+    display: flex;
+    align-items: center;
+    span{
+        padding-left: 20px;
+        padding-right: 90px;
+    }
+}
+
+.inputMail{
+    display: flex;
+    background: #EAF0ED;
+    position: relative;
+}
+
+
+.m_icon{
+    position: absolute;
+    top: 20px;
+    left: 20px;    
+    box-sizing: border-box;
+    background:#EAF0ED;
+
+}
+
+.input_text{
+    padding: 16px 25px;
+    border: none;
+    line-height: 26px;
+    width: 180px;
+    outline: none;
+    background: #EAF0ED;
+}
+
+.sub{
+    width: 40px;
+    height: 40px;
+}
+.send{
+    background-color: #FFE180;
+    border: none;
+    padding: 17px 20px;
+}
+
+@media(max-width:768px){
+    .mail{
+    flex-direction: column;
+    align-items: center;
+        ul{
+            margin-bottom: 33px;
+        }
+        &_input{
+            margin-bottom: 33px;
+        }
+    }    
+}
+
+.inf{
+    background: #EAF0ED;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact{
+    padding-top: 110px;
+    font-size: 16px;
+    color: #3F5D45;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.icon{
+    display: flex;
+    img{
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+    a{
+        padding-right: 8px;
+    }
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #3F5D45;
+    h2{
+        writing-mode: vertical-lr;
+        font-size: 24px;
+        line-height: 40px;
+        text-indent: 10px;
+        font-weight: bold;
+        letter-spacing: 6px;
+    }
+    p{
+        margin-top: 46px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+
+@media(max-width:768px){
+    .inf{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .right h2{
+        display: none;
+    }
+    .contact{
+        padding-top: 40px;
+    }
+    .right p{
+        margin-top: 23px;
+    }
+}
