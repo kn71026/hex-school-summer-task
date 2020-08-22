@@ -21,7 +21,7 @@
     h2{
         background: #3F5D45;
         color: #EAF0ED;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 40px;
         text-align: center;
         padding-top: 16px;
@@ -35,14 +35,20 @@
     width: 300px;
     line-height: 40px;
     border: #EAF0ED 1px solid;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-top: 16px;
     padding-bottom: 16px;
     background:white;
     color: #3F5D45;
+    &:hover{
+        background: #EAF0ED;
+        color: #3F5D45;
+        transition-duration: 0.5s;
+
+    }
 }
 
-.list_selected{
+.list_selected a{
     background: #EAF0ED;
     border: 1px solid #EAF0ED;
     text-align: center;
@@ -50,7 +56,7 @@
     padding-top: 16px;
     padding-bottom: 16px;
     line-height: 40px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .productList{
@@ -76,7 +82,6 @@
         writing-mode: vertical-lr;
         color: #EAF0ED;
         background: #3F5D45;
-        font-size: 16px;
         text-align: center;
         padding: 10px;
     }
@@ -122,7 +127,7 @@
     border: none;
     width: 100%;
     background: #EAF0ED;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
@@ -130,6 +135,9 @@
     font-weight: bold;
     &:hover{
         cursor: pointer;
+        background: #3F5D45;
+        color: #EAF0ED;
+        transition-duration: 0.6s;
     }
 }
 
@@ -171,6 +179,7 @@
     display: flex;
     justify-content: flex-end;
     a{
+        display: flex;
         width: 60px;
         height: 60px;
         text-decoration: none;
@@ -179,7 +188,6 @@
         font-size: 20px;
         line-height: 20px;
         color: #3F5D45;
-        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -187,6 +195,7 @@
 
 
 .selected_page a:hover{
+    transition-duration: 0.6s;
     color: #EAF0FD;
     background-color: #3F5D45;
 }

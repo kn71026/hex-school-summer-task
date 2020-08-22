@@ -27,7 +27,7 @@ a {
     h1{
         width: 30%;
     }
-    .Logo{
+    .Logo a{
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg);
         text-indent: 101%;
         height: 40px;
@@ -56,12 +56,24 @@ a {
 .nav-link {
     color: #3F5D45;
     font-weight: bold;
-    padding: 0 30px;
+    padding: 5px 30px;
     display: block;
+    &:hover{
+        background: #3F5D45;
+        color: white;
+        transition-duration: 0.6s;
+    }
 }
 
 
 @include pad {
+    header{
+        z-index: 1;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: #ffffffef;
+    }
     .navbar{
         justify-content: space-around;
         align-items: flex-start;

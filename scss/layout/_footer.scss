@@ -4,6 +4,7 @@
 }
 .mail {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -36,6 +37,7 @@
 }
 
 .input_text{
+    text-indent: 30px;
     padding: 16px 25px;
     border: none;
     line-height: 26px;
@@ -56,7 +58,6 @@
 @include pad {
     .mail{
     flex-direction: column;
-    align-items: center;
         ul{
             margin-bottom: 33px;
         }
@@ -80,7 +81,6 @@
 }
 .contact{
     padding-top: 110px;
-    font-size: 16px;
     color: #3F5D45;
     line-height: 24px;
     padding-bottom: 30px;
@@ -113,7 +113,6 @@
     }
     p{
         margin-top: 46px;
-        font-size: 16px;
         line-height: 19px;
     }
 }

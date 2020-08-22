@@ -38,13 +38,33 @@
         background-color: #90d47f;
         transition-duration: 0.5s;
     }
-
+    &_mobile{
+        display: none;
+        font-size: 1.5rem;
+        color: #3F5D45;
+        font-weight: bold;
+        background-color: #FFE180;
+        padding: 14px 102px;
+        &:hover{
+        background-color: #90d47f;
+        transition-duration: 0.5s;
+    }
+    }
 }
 
 
 @include pad {
     .banner{
-        margin-top: 30px;
+        margin-top: 0px;
         margin-bottom: 0px;
     }
+    .keep{
+        display: none;
+    }
+    .keep_mobile{
+        display: flex;
+        justify-content: center;
+    }
+    
+   
 }
