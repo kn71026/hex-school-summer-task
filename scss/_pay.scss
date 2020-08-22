@@ -1,58 +1,43 @@
 .banner{
     background-image: url(https://bit.ly/2P7GhNd);
-    margin-bottom: 60px;
-    background-repeat: no-repeat;
-    width: 940px;
-    height: 460px;
-    background-size: cover;
     background-position: center center;
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
-.paysuccess{
-    position: absolute;
-    left: 377px;
-    top: 130px;
-}
 
 .check{
-    position: relative;
+    display: flex;
     color: #3F5D45;
     margin-bottom: 32px;
     .material-icons{
         display: inline-block;
-        margin-right: 58px;
     }
-    .righticon{
-        margin-right: 0px;
+    .line{
+        border-bottom: 1px solid #3F5D45;
+        width: 61px;
+        transform: translateY(-50%) scaleX(1.15);
     }
-}
-.Lline{
-    border-bottom: 1px solid #3F5D45;
-    width: 68px;
-    display: inline-block;
-    position: absolute;
-    left: 22px;
-    top: 12px;
-}
-.Rline{
-    border-bottom: 1px solid #3F5D45;
-    width: 68px;
-    display: inline-block;
-    position: absolute;
-    left: 108px;
-    top: 12px;
 }
 
+
 .keep{
-    position: absolute;
-    left: 320px;
-    top: 279px;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #3F5D45;
     font-weight: bold;
     background-color: #FFE180;
-    padding: 17px 102px 15px 102px;
+    padding: 14px 102px;
+    &:hover{
+        background-color: #90d47f;
+        transition-duration: 0.5s;
+    }
 
 }
 

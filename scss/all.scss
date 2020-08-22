@@ -1,8 +1,8 @@
 @import "./config/variable"; 
-@import "./config/reset";
-@import "./config/mixin"; 
+@import "./config/reset"; 
+@import "bootstrap/bootstrap.scss";
 @import "./layout/header"; 
 @import "index";
-@import "pay";
+@import "RWD_index";
 @import "./layout/footer"; 
 @import "theme";
