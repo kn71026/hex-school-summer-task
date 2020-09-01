@@ -63,6 +63,10 @@
         }
         &_input{
             margin-bottom: 33px;
+            span{
+                padding-left: 10px;
+                padding-right: 40px;
+            }
         }
     }    
 }
@@ -93,7 +97,7 @@
         margin-right: 8px;
     }
     a{
-        padding-right: 8px;
+        margin-right: 8px;
     }
 }
 
@@ -104,7 +108,7 @@
     align-items: flex-end;
     color: #3F5D45;
     h2{
-        writing-mode: vertical-lr;
+        writing-mode: vertical-rl;
         font-size: 24px;
         line-height: 40px;
         text-indent: 10px;

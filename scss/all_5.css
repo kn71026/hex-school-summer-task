@@ -402,8 +402,6 @@ a {
     margin-bottom: 30px;
   }
   .productList ul {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -638,6 +636,10 @@ a {
   .mail_input {
     margin-bottom: 33px;
   }
+  .mail_input span {
+    padding-left: 10px;
+    padding-right: 40px;
+  }
 }
 
 .inf {
@@ -684,7 +686,7 @@ a {
 }
 
 .icon a {
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 .right {
@@ -702,9 +704,9 @@ a {
 }
 
 .right h2 {
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-          writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
   font-size: 24px;
   line-height: 40px;
   text-indent: 10px;
